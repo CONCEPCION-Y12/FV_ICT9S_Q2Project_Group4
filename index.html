@@ -26,10 +26,17 @@
             border-radius: 50px;
             height: 45px;
             width: 110px;
+            padding-top: 9px;
         }
 
         #mynavbar {
             margin-left: 415px;
+        }
+
+        #homeimg {
+            width: 530px;
+            height: 370px;
+            box-shadow: 0px 0px 12px;
         }
 
         #foot {
@@ -51,16 +58,29 @@
             padding: 30px; 
             margin: 30px;
             display: flex; 
-            flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             text-align: left;
-            height: 330px;
-            width: auto;
+            height: 470px;
+            width: 1370px;
             border-radius: 20px;
             border: 3px solid rgb(0, 95, 115);
             line-height: 1.5;
             position: absolute;
             opacity: .9;
+            gap: 30px;
+            box-shadow: 0px 0px 5px;
+        }
+
+        .container2 {
+            align-items: center;
+            margin-top: 15px;
+            padding: 0px;
+        }
+
+        .container3 {
+            width: 650px;
+            text-align: justify;
+            margin: 15px;
         }
 
         body {
@@ -102,7 +122,7 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="btn" type="button" id="portalbtn">My Portal</button>
+                    <a href="https://obmontessori.orangeapps.ph/landing/obmontessori/" target="_blank" class="btn" role="button" id="portalbtn">My Portal</a>
                 </form>
             </div>
         </div>
@@ -115,13 +135,18 @@
             </div>
             <div class="container1">
                 <br>
-                <h1 style="text-align: center; font-weight: bold; color: rgb(1, 95, 115);">Home Page</h1>
-                <br>
-                <p>Operation Brotherhood Montessori Center nurtures each child in the comprehensive method of Dr. Maria Montessori.</p>
-                <p>This is the O.B. Montessori Center of the Philippines!</p>
-                <p>We are a co-educational school, fostering students from pre-k to Grade 12. OBMC offers a viable alternative to international schools, blending both tradition and innovaton to prepare a child for life.</p>
-                <p>We aim to transform our students into independent individuals who can succeed, lead, and influence the future. </p>
-                <p>Explore our various programs and discover the remarkable community that makes OBMC a unique place for a child to develop.</p>
+                <div class="container2">
+                <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/fdabba98-61bf-4946-a1e2-246c208f13f8/1+20240226_094559+copy.jpg" alt="OBMC Home Image" id="homeimg">
+                </div>
+                <div class="container3">
+                    <h1 style="text-align: center; font-weight: bold; color: rgb(1, 95, 115);">O.B. Montessori Center</h1>
+                    <br>
+                    <p>Operation Brotherhood Montessori Center nurtures each child in the comprehensive method of Dr. Maria Montessori.</p>
+                    <p>This is the O.B. Montessori Center of the Philippines!</p>
+                    <p>We are a co-educational school, fostering students from pre-k to Grade 12. OBMC offers a viable alternative to international schools, blending both tradition and innovaton to prepare a child for life.</p>
+                    <p>We aim to transform our students into independent individuals who can succeed, lead, and influence the future. </p>
+                    <p>Explore our various programs and discover the remarkable community that makes OBMC a unique place for a child to develop.</p>
+                </div>
             </div>
         </div>
     </div>
