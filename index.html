@@ -15,8 +15,10 @@
 
         #headerimg {
             filter: blur(.7px);
-            height: 670px;
+            height: 530px;
             object-fit: cover;
+            border-bottom: 4px solid rgb(0, 95, 115);
+            box-shadow: 0px 0px 15px;
         }
 
         #portalbtn {
@@ -39,18 +41,6 @@
             box-shadow: 0px 0px 12px;
         }
 
-        #foot {
-            background-color: rgb(3, 146, 149);
-            color: whitesmoke;
-            align-items: center;
-            text-align: center;
-            width: 100%;
-            border: 3px solid rgb(0, 95, 115);
-            padding: 10px;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: larger;
-            margin: 0;
-        }
 
         .container1 {
             border-radius: 20px;
@@ -89,7 +79,18 @@
 
         nav {
             border-bottom: 4px solid rgb(0, 95, 115);
-            box-shadow: 0px 5px;
+            box-shadow: 0px 0px 10px;
+        }
+
+        #campuses {
+            background-color:  rgb(0, 95, 115);
+            border-bottom: 4px solid whitesmoke;
+            box-shadow: 0px 0px 15px;
+        }
+
+        #campus1 ,#campus2{
+            color: whitesmoke;
+            text-align: center;
         }
     </style>
 </head>
@@ -150,8 +151,40 @@
             </div>
         </div>
     </div>
-    <footer>
-        <p id="foot">@ 2026 OBMC Website | Created by Yanis Concepcion, 9-Sapphire</p>
-    </footer> 
+
+    <div class="container-fluid m-0 p-0" id="campuses">
+        <div class="row">
+            <div class="col">
+                <h1 style="text-align: center; font-weight: bold; color: whitesmoke; font-weight: bolder; margin: 40px;">Campuses</h1>
+            </div>
+        </div>
+
+        <div class="row gap-3 justify-content-center">
+            <div class="col-lg-3" id="campus1">
+                <a class="link" href="https://obmontessori.edu.ph/angeles60th"><img src="https://obmontessori.orangeapps.ph/landing/obmontessori/images/Angeles%20Facade.jpg" alt="Angeles Campus" style="height: 200px; width: 320px; border-radius: 30px; box-shadow: black 0px 0px 5px;"></a>
+                <p style="padding: 10px;">Angeles Campus</p>
+            </div>
+            <div class="col-lg-3" id="campus1">
+                <a class="link" href="https://obmontessori.edu.ph/fairview60th"><img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/9804865a-f6de-47d0-b463-c569491b9621/OBMC+MONTESSORI+FV+1+-+AY+2026+FA.jpg" alt="Fairview Campus" style="height: 200px; width: 320px; border-radius: 30px; box-shadow: black 0px 0px 5px;"></a>
+                 <p style="padding: 10px;">Fairview Campus</p>
+            </div>
+            <div class="col-lg-3" id="campus1">
+                <a class="link" href="https://obmontessori.edu.ph/greenhills60th"><img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/affba656-d015-4b96-a8ba-3ef5bbbc2c39/OBMC+MONTESSORI+GH+-+AY+2026+FA.jpg" alt="Greenhills Campus" style="height: 200px; width: 320px; border-radius: 30px; box-shadow: black 0px 0px 5px;"></a>
+                <p style="padding: 10px;">Greenhills Campus</p>
+            </div>
+        </div>
+
+        <div class="row gap-3 justify-content-center">
+            <div class="col-lg-3" id="campus2">
+                <a class="link" href="https://obmontessori.edu.ph/laspinas60th"><img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/352a0ac0-0b3f-4d5f-af98-59c07cc35012/OBMC+MONTESSORI+LP+2+-+AY+2026+FA.jpg" alt="Las Piñas Campus" style="height: 200px; width: 320px; border-radius: 30px; box-shadow: black 0px 0px 5px;"></a>
+                <p style="padding: 10px;">Las Piñas Campus</p>
+            </div>
+            <div class="col-lg-3" id="campus2">
+                <a class="link" href="https://obmontessori.edu.ph/staana60th"><img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/97d122d3-7288-49cb-bcdd-3c210e3366f8/OBMC+MONTESSORI+SA+1+-+AY+2026+FA.jpg" alt="Sta. Ana Campus" style="height: 200px; width: 320px; border-radius: 30px; box-shadow: black 0px 0px 5px;"></a>
+                <p style="padding: 10px;">Sta.<span style="margin-left: 4px;">Ana</span> Campus</p>
+            </div>
+        </div>
+        <br>
+    </div>
 </body>
 </html>
