@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<style>
+    body{
+        margin: 0;
+        background-image: url("https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/4a48cd86-e2e9-4451-b1af-e9bbdf24e991/DSC06837.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+}
+    .enroll{
+        background-color: rgba(213, 237, 250, 0.8);
+        padding: 25px;
+        margin: 30px 0;
+        border-radius: 10px;
+}
+    .submit-btn{
+        text-align: center;
+        margin-top: 20px;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="https://files.orangeapps.ph/disk001/School_Files/1/school-66/school_profile/1724046763-1128.png" alt="logo" class="img-fluid rounded-circle" style= "height: 80px; width: 80px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Campuses</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+        <form class="d-flex">
+            <a href="https://obmontessorifairview.orangeapps.ph/oa_school/" target="_blank" class="btn btn-success">My Portal</a>
+        </form>
+        </div>
+    </div>
+    </nav>
+
+<div class="container">
+    <div class="enroll">
+
+        <form>
+            <h4>Student Information</h4>
+
+        <div class="row">
+
+            <div class="mb-3">
+            <label>Full Name</label>
+            <input type="name" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <label>Birth Date</label>
+                <input type="date" class="form-control">
+            </div>
+            <div class="col-md-4 mb-3">
+                <label>Gender</label>
+                <select class="form-select">
+                    <option selected disabled>Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                    </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label>Grade Level</label>
+                    <select class="form-select">
+                        <option selected disabled>Select</option>
+                        <option>Grade 1</option>
+                        <option>Grade 2</option>
+                        <option>Grade 3</option>
+                        <option>Grade 4</option>
+                        <option>Grade 5</option>
+                        <option>Grade 6</option>
+                        <option>Grade 7</option>
+                        <option>Grade 8</option>
+                        <option>Grade 9</option>
+                        <option>Grade 10</option>
+                        <option>Grade 11</option>
+                        <option>Grade 12</option>
+                    </select>
+                </div>
+            </div>
+<br>
+        <h4>Contact Details</h4>
+
+        <div class="mb-3">
+            <label>Email Address</label>
+            <input type="email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Contact Number</label>
+
+                <div class="row">
+                <div class="col-2">
+                    <select class="form-select" style="color: lightslategray">
+                        <option disabled selected>Select</option>
+                        <option>🇵🇭 +63</option>
+                        <option>🇨🇳 +86</option>
+                        <option>🇮🇳 +91</option>
+                        <option>🇳🇬 +234</option>
+                        <option>🇰🇷 +82</option>
+                        <option>🇺🇸 +1</option>
+                        <option>🇹🇭 +66</option>
+                        <option>🇲🇲 +95</option>
+                        <option>🇳🇵 +997</option>
+                        <option>🇮🇩 +62</option>
+                        <option>🇸🇩 +249</option>
+                    </select>
+                </div>
+
+                <div class="col-10">
+                    <input type="tel" class="form-control" placeholder="123-456-7890">
+                </div>
+                </div>
+        </div>
+<br>
+        <h4>Other Information</h4>
+
+            <label>Preferred Mode of Learning</label>
+            <div class="form-check">
+                    <input type="radio" class="form-check-input" name="mode">
+                    <label>Online</label>
+            </div>
+            <div class="form-check">
+                    <input type="radio" class="form-check-input" name="mode">
+                    <label>Face-to-face</label>
+            </div>
+            <div class="form-check">
+                    <input type="radio" class="form-check-input" name="mode">
+                    <label>Tutor</label>
+            </div>
+            <div class="submit-btn">
+                <button type="submit" class="btn btn-lg" style="background-color: rgb(1, 95, 115); color:whitesmoke;">Submit</button>
+            </div>
+
+        Click <a href="https://obmontessori.edu.ph/contactus" target="_blank">here</a> for more details.
+
+        </form>
+
+    </div>
+</div>
+
+</body>
+</html>
